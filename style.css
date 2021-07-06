@@ -1,0 +1,159 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+ }
+
+ a{
+    
+    text-decoration: none;
+    float: left;
+    margin: 10px;
+    color: white;  
+    border-right: 2px solid;
+    display: block;
+    padding-right: 5px;
+
+}
+.nav-item{
+    height: 40px;
+    width: 100%;
+    background-color: indigo;
+    padding-bottom: 20px;
+    text-align: center;
+}
+a:hover{
+    background-color: gray;
+}
+.organe-colord{
+    color: orange;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+}
+.half-portion{
+    width: 50%;
+    margin-left: 5%;
+    
+
+}
+.half-portion img{
+    width: 100%;
+    height: 90%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 25px;
+    font-size: 20px;
+   
+}
+.searching-food{
+    color: white;
+    font-size: 18px;
+}
+.Search{
+    display: inline-block;
+    margin-top: 20px;
+    width: 350px;
+}
+.banner{
+    background-image: url("images/Background/bg.png");
+}
+.colored-heading{
+    color: teal;
+}
+.recipies-description{
+    text-align: center;
+    padding: 100px;
+}
+.recipies-card{
+    width: 100%;
+    display: flex;
+    
+}
+.card{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 4%;
+    box-shadow: 2px 3px 18px 3px gray;
+    border-radius: 15px;
+
+}
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 45%;
+    padding: 10px;
+    border-radius: 50px;
+   
+}
+.card-description{
+    padding-left: 20px;
+}
+.subscriber{
+    display: flex;
+    margin: 100px;
+    padding: 30px;
+    box-shadow: 1px 1px 16px 1px gray;
+    border-radius: 15px;
+    
+}
+.sub-subsriber{
+    
+    width: 33%;
+    margin-left: 8%;
+}
+.bold{
+    font-weight: bold;
+}
+.location{
+   text-align: center;
+   background-color: rgb(253, 234, 236);
+   background-image: url("images/Background/right-bg.png");
+   background-position: right;
+   background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(11, 14, 23);
+
+}
+.white{
+    color: white;
+}
+.betteradjustment{
+    margin-top: 50px;
+    font-size: 30px;
+
+}
+.ifrm{
+    border:0; 
+    margin:40px 0;
+    border: 2px solid;
+    border-image: linear-gradient(to right,red,blue);
+    border-image-slice: 5;
+    box-shadow: 2px 3px 18px 3px gray;
+}
+.colored-titel{
+    color: royalblue;
+}
+p{
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 15px;
+}
+.p-centered{
+    padding: 20px;
+    text-align: center;
+    
+}
